@@ -1,0 +1,35 @@
+.container.row{
+  padding-top: 50px;
+}
+
+.title{
+  color: #696969;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  .title{
+    font-size: 5.4rem;
+  }
+  .featured{
+    font-size: 6.5rem;
+  }
+}
+
+@media (min-width: 1999px) {
+  .title{
+    font-size: 5.4rem;
+  }
+  .featured{
+    font-size: 6.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title{
+    font-size: 1.7rem;
+  }
+  .featured{
+    font-size: 2rem;
+  }
+}

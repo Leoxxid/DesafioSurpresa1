@@ -1,0 +1,32 @@
+<div class="card">
+  <div class="card-content white-text">
+    <form action="/compartion" method="get" data-remote="true">
+      <div class="alcohol row">
+        <div class="col l4">
+          <img class="responsive-img" src="/icon-alcool.png">
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" name="alcohol" id="alcohol_value" type="text" min="0" class="validate" autocomplete="off" required>
+          <label for="alcohol_value">Preço do Álcool</label>
+        </div>
+      </div>
+      <div class="gasoline row">
+        <div class="col l4">
+          <img class="responsive-img" src="/icon-gasolina.png">
+        </div>
+        <div class="input-field col s6">
+          <input placeholder=""  name="gasoline" id="gasoline_value" type="text" min="0" class="validate" autocomplete="off" required>
+          <label for="gasoline_value">Preço da Gasolina</label>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn light-blue darken-1 col l12" type="submit" name="action">Calcular</button>
+      </div>
+    </form>
+    <div class="row">
+      <div class="col l12">
+        <div id="result"></div>
+      </div>
+    </div>
+  </div>
+</div>

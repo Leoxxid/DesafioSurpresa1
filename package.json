@@ -1,0 +1,9 @@
+{
+  "name": "desafio_surpresa_1",
+  "private": true,
+  "dependencies": {
+    "jquery-maskmoney": "^3.0.2",
+    "materialize-css": "^0.100.2",
+    "materialize-js": "^1.0.0"
+  }
+}

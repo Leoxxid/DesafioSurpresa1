@@ -1,0 +1,10 @@
+<% if @decision == 'alcohol'%>
+  <% decision =  "Álcool" %>
+  <% color = "light-green-text" %>
+<% elsif @decision == 'gasoline'%>
+  <% decision =  "Gasolina" %>
+  <% color = "pink-text" %>
+<% end %>
+
+$('#result').html('<hr/> É mais econômico abastecer com \
+<span id="result-featured" class="<%= color %> "><%= decision %></span>');
