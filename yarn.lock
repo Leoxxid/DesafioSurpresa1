@@ -22,7 +22,3 @@ materialize-css@^0.100.2:
   dependencies:
     hammerjs "^2.0.8"
     jquery "^3.0.0 || ^2.1.4"
-
-materialize-js@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/materialize-js/-/materialize-js-1.0.0.tgz#b61d68174c5d010f8a088daa288844833b923a5b"
