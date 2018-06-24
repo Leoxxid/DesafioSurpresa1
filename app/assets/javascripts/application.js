@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery
+//= require jquery/dist/jquery
 //= require materialize-css/dist/js/materialize
 //= require jquery-maskmoney/dist/jquery.maskMoney
 //= require activestorage
